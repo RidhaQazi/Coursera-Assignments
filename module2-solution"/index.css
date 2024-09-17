@@ -1,0 +1,128 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family:'Lucida Sans';
+    font-weight: 500;
+    box-sizing: border-box;
+}
+
+h1 {
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 50px;
+    font-size: 28px;
+}
+
+section {
+    background: gray;
+    color: black;
+    border: 1px solid black;
+    margin: 20px;
+    font-size: 16px;
+    width: 100%;
+}
+
+#s1 > h3{
+   background-color: rgb(172, 113, 123);
+   border: 1px solid black;
+   float: right;
+   width: 150px;
+   text-align: center;
+   font-size: 20px;
+   margin-bottom: 5px;
+   
+}
+
+#s2 > h3{
+    background-color: rgb(94, 52, 59);
+    color: white;
+    border: 1px solid black;
+    float: right;
+    width: 150px;
+    text-align: center;
+    font-size: 20px;
+    margin-bottom: 5px;
+   
+}
+
+#s3 > h3{
+    background-color: rgb(213, 217, 95);
+    border: 1px solid black;
+    float: right;
+    width: 150px;
+    text-align: center;
+    font-size: 20px;
+    margin-bottom: 5px;
+   
+}
+
+#s1 > p {
+    clear: right;
+    padding-left: 10px;
+}
+
+#s2 > p {
+    clear: right;
+    padding-left: 10px;
+}
+
+#s3 > p {
+    clear: right;
+    padding-left: 10px;
+}
+
+@media (min-width: 992px ) {
+
+    #s1 {
+        width: 29%;
+        float: left;
+    }
+
+    #s2 {
+        width: 29%;
+        float: left;
+    }
+
+    #s3 {
+        width: 29%;
+        float: left;    
+    }
+
+
+}
+
+@media (min-width: 768px ) and (max-width: 991px ) {
+
+    #s1 {
+        width: 43%;
+        float: left;
+        
+    }
+
+    #s2 {
+        width: 43%;
+        float: left;
+    }
+
+    #s3 {
+        width: 90%;
+        clear: left;
+    }
+    
+}
+
+@media (min-width: 0px ) and (max-width: 767px ) {
+
+    #s1 {
+        width: 90%;
+    }
+
+    #s2 {
+        width: 90%;
+    }
+
+    #s3 {
+        width: 90%;
+    }
+    
+}
