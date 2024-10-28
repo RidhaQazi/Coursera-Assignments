@@ -1,1 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Assignment Solution for Module 3</title>
 
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/index.css">
+</head>
+
+<body>
+    
+    <nav id="navv" class="navbar navbar-default">
+        <div class="container-fluid">
+            <div class="navbar-header">
+
+                <div class="navbar-brand">
+                    <a href="index.html"><h1>Food, LLC</h1></a>
+                </div>
+
+                 <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar-collapse1" aria-expanded="false">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                  </button>
+            </div>
+
+                <div class="collapse navbar-collapse" id="navbar-collapse1">
+                    <ul id="nav-list" class="nav navbar-nav navbar-right">
+                      <li class="nav-item visible-xs text-center"><a class="nav-link" href="#">Chicken</a></li>
+                      <li class="nav-item visible-xs text-center"><a class="nav-link" href="#">Beef</a></li>
+                      <li class="nav-item visible-xs text-center"><a class="nav-link sushi" href="#">Sushi</a></li>
+                    </ul>
+                </div>
+        </div>
+    </nav>
+
+
+
+    <div class="container main-content">
+        <h1 class="text-center">Our Menu</h1>
+    </div>
+
+    <div class="container-fluid">
+        <section id="s1" class="col-xs-12">
+            <h3 class="text-center">Chicken</h3>
+         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Commodi illum tempora nobis iusto exercitationem 
+           sint provident saepe explicabo alias fuga, quidem nostrum soluta incidunt, repellat laudantium officia, quibusdam 
+           corrupti consequatur? Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dignissimos voluptatibus, ab fugit 
+           nostrum rem veritatis eligendi! At quae eaque porro facilis aut nam illo, consectetur voluptatum repellat sequi neque?
+           Minus!Lorem ipsum dolor sit amet, consectetur adipisicing elit. Commodi illum tempora nobis iusto exercitationem 
+           sint provident saepe explicabo alias fuga, quidem nostrum soluta incidunt, repellat laudantium officia, quibusdam 
+           corrupti consequatur? Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dignissimos voluptatibus, ab fugit 
+           nostrum rem veritatis eligendi! At quae eaque porro facilis aut nam illo, consectetur voluptatum repellat sequi neque?
+           Minus!Lorem ipsum dolor sit amet, consectetur adipisicing elit. Commodi illum tempora nobis iusto exercitationem 
+           sint provident saepe explicabo alias fuga, quidem nostrum soluta incidunt, repellat laudantium officia, quibusdam 
+           corrupti consequatur? Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dignissimos voluptatibus, ab fugit 
+           nostrum rem veritatis eligendi! At quae eaque porro facilis aut nam illo, consectetur voluptatum repellat sequi neque?
+           Minus!Lorem ipsum dolor sit amet, consectetur adipisicing elit. Commodi illum tempora nobis iusto exercitationem 
+           sint provident saepe explicabo alias fuga, quidem nostrum soluta incidunt, repellat laudantium officia, quibusdam 
+           corrupti consequatur? Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dignissimos voluptatibus, ab fugit 
+           nostrum rem veritatis eligendi! At quae eaque porro facilis aut nam illo, consectetur voluptatum repellat sequi neque?
+           Minus!Lorem ipsum dolor sit amet, consectetur adipisicing elit. Commodi illum tempora nobis iusto exercitationem 
+           sint provident saepe explicabo alias fuga, quidem nostrum soluta incidunt, repellat laudantium officia, quibusdam 
+           corrupti consequatur? Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dignissimos voluptatibus, ab fugit 
+           nostrum rem veritatis eligendi! At quae eaque porro facilis aut nam illo, consectetur voluptatum repellat sequi neque?
+           Minus!Lorem ipsum dolor sit amet, consectetur adipisicing elit. Commodi illum tempora nobis iusto exercitationem 
+           sint provident saepe explicabo alias fuga, quidem nostrum soluta incidunt, repellat laudantium officia, quibusdam 
+           corrupti consequatur? Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dignissimos voluptatibus, ab fugit 
+           nostrum rem veritatis eligendi! At quae eaque porro facilis aut nam illo, consectetur voluptatum repellat sequi neque?
+           Minus!Lorem ipsum dolor sit amet, consectetur adipisicing elit. Commodi illum tempora nobis iusto exercitationem 
+           sint provident saepe explicabo alias fuga, quidem nostrum soluta incidunt, repellat laudantium officia, quibusdam 
+           corrupti consequatur? Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dignissimos voluptatibus, ab fugit 
+           nostrum rem veritatis eligendi! At quae eaque porro facilis aut nam illo, consectetur voluptatum repellat sequi neque?
+           Minus!Lorem ipsum dolor sit amet, consectetur adipisicing elit. Commodi illum tempora nobis iusto exercitationem 
+           sint provident saepe explicabo alias fuga, quidem nostrum soluta incidunt, repellat laudantium officia, quibusdam 
+           corrupti consequatur? Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dignissimos voluptatibus, ab fugit 
+           nostrum rem veritatis eligendi! At quae eaque porro facilis aut nam illo, consectetur voluptatum repellat sequi neque?
+           Minus!</p>
+        </section>
+    </div>
+
+
+
+     <!-- jQuery (Bootstrap JS plugins depend on it) --> 
+  <script src="js/jquery-2.1.4.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+  <script src="js/script.js"></script>
+
+  <script>
+    // JavaScript to adjust padding 
+    $(document).ready(function () {
+      $('.navbar-toggle').on('click', function () {
+        const isExpanded = $(this).attr('aria-expanded') === 'true';
+        
+        if (isExpanded) {
+          $('.main-content').css('padding-top', '10px');
+        } else {
+          $('.main-content').css('padding-top', '90px'); 
+        }
+      });
+    });
+  </script>
+
+</body>
+</html>
